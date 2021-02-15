@@ -19,7 +19,7 @@ function Results(props) {
           <Tr key={item.key}>
             <Td>{item.key}</Td>
             <Td>{item.publishers[0].broadcasts[0].headline}</Td>
-            <Td>{item.publishers[0].broadcasts[0].headline}</Td>
+            <Td>{item.publishers[0].broadcasts[0].subheadline}</Td>
             <Td>{moment(item.start_time).format("MMMM Do YYYY h:mm ")}</Td>
           </Tr>
         ))}
